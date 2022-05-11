@@ -1,6 +1,6 @@
 
 
-vim.cmd [[luafile /home/reflog/.cache/nvim/packer_compiled.lua]]
+vim.cmd [[luafile $HOME/.cache/nvim/packer_compiled.lua]]
 -- example file i.e lua/custom/init.lua
 
 -- MAPPINGS
