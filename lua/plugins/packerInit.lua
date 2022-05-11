@@ -28,9 +28,8 @@ if not present then
 end
 
 local user_snapshot = nvchad.load_config().snapshot
-
 packer.init {
-   compile_path = vim.fn.stdpath "cache" .. "packer_compiled.lua",
+   compile_path = vim.fn.stdpath "cache" .. "/packer_compiled.lua",
    display = {
       open_fn = function()
          return require("packer.util").float { border = "single" }
